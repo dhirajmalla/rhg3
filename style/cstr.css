@@ -1,0 +1,19 @@
+/* cstr.css */
+
+p {
+	font-family:"courier new";
+  font-size:16pt;
+  font-weight:bold;
+}
+
+#under_construction {
+	position:absolute;
+  top:150px;
+  left:50%;
+  width:400px;
+  margin-left:-200px;
+  border: 2px dashed #a33;
+  background-color: #ccc;
+  text-align:center;
+  padding: 3 3 3 3;
+}

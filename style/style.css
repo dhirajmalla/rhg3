@@ -1,0 +1,342 @@
+ /* Edited with EditCSS */
+/**** LINK-tag style sheet style.css ****/
+
+
+/* TAGS DEFINED */
+body {
+  font-family:Times New Roman, Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  font-stretch:narrower;
+  margin: 0px;
+  color:#000000;
+}
+/* END OF TAG DEFINITIONS */
+
+.normalMenu{
+	font-weight:normal;
+}
+.selectMenu{
+   font-weight:bold;
+   color:#fff;
+}
+.boldLMenu{
+   font-weight:bold;
+   color:#fff;
+}
+
+.normalMenu{
+   font-weight:none;
+   color:#fff;
+}
+
+A:link,A:visited{
+	text-decoration:none;
+	color:#000;
+	}
+
+/* LAYERS */
+
+#frame {
+	position:relative;
+	left:50%;
+	top:20px;
+	margin-left:-425px;
+	width:850px;
+	margin-top:0px;
+	float:left;
+	height:500px;
+	/*border:1px solid #99FF99;*/
+}
+
+#banner_layer {
+	position:absolute;
+	left:100px;
+	top:20px;
+	width:500px;
+	/*border:1px solid #000;*/
+}
+
+#globalmenu_layer {
+	position:absolute;
+	top:132px;
+	left:332px;
+	width:100px;
+	height:100px;
+	/*border:1px solid #99FF99;*/
+
+}
+
+#localmenu_layer {
+	position:absolute;
+	float:left;
+	left:162px;
+	top:250px;
+	width:180px;
+	z-index:10;
+        /*border:1px solid #99FF99;*/
+
+}
+
+#login_layer {
+	/*position:relative;
+	z-index:60;
+	background-color:#LF3; */
+}
+
+#main_layer {
+	position:absolute;
+	left:470px;
+	float:left;
+	top:30px;
+	width: 380px;
+	height:470px;;
+	/*border:1px solid #0000FF;*/
+}
+
+#mashup_layer {
+	/*position:relative;
+	left:40px;
+	float:left;
+	top:40px;
+	background-color:#79d;
+	width:5008px;*/
+}
+
+#footer_layer {
+	position:absolute;
+	left:0px;
+	top:447px;
+	width:600;
+	/*border:1px solid #BBB;*/
+
+}
+#language_layer {
+	position:absolute;
+	left:50px;
+	top:418px;
+	width:600;
+	/*border:1px solid #BBB;*/
+}
+#trace_layer {
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:300px;
+	background-color:#ddd;
+	font-family:"Courier New";
+	font-size:9pt;
+	/*border:1px solid black;*/
+}
+/* END OF LAYER DEFINITIONS */
+
+
+
+/* TYPOS */
+
+/* END OF TYPO DEFINITIONS */
+
+a img{
+   border:none;
+}
+
+/* MENUS */
+
+#globalImage {
+position:absolute;
+top:20px;
+left:20px;
+ }
+
+#gMenu {
+	position:absolute;
+ 	list-style:none;
+ 	padding:0px;
+ 	margin:0px;
+}
+
+#gMenu li {
+   	margin: 0 0.15em;
+   	width:100px;
+	padding-bottom:.1em;
+}
+
+#gMenu li a {
+   	text-decoration:none;
+   	color:black;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#lMenu{
+   	padding-bottom:1em;
+	/*border:1px solid*/
+
+}
+
+#lMenu li{
+   	list-style:none;
+   	padding-left:.5em;
+	margin-left:-30px;
+	/*border:1px solid*/
+
+}
+
+#lMenu li a {
+   text-decoration:none;
+   color:black;
+}
+
+/* END OF MENU DEFINITIONS */
+
+
+/* FORMS */
+/* Login form */
+.loginform {
+    font-family:arial;
+  	font-size:8pt;
+  	color: #66c;
+}
+.loginform input, td {
+  	color: #a66;
+  	font-size:8pt;
+}
+
+/* END OF FORMS DEFINITIONS */
+
+
+/* LINKS */
+
+/* END OF LINKS DEFINITIONS */
+
+/* Footer Row*/
+#foterrow td{
+	width:50%;
+	font-family:Verdana;
+	font-size:9px;
+	color:#000;
+	/*border:1px solid black;*/
+}
+#foterrow .foterrow1{
+	width:115px;
+}
+#foterrow .foterrow2{
+	width:145px;
+}
+#foterrow .foterrow3{
+	width:125px;
+}
+#foterrow .foterrow4{
+	width:90px;
+}
+#foterrow .foterrow5{
+	width:10px;
+}
+
+
+/* menu highlighs */
+.furniture .furniture,.products .products,.about .about,.contact .contact{
+					font-weight:bold;
+}
+#productimageStage{
+	position:absolute;
+  	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+#productimage{
+	position:absolute;
+  	top:0px;
+  	float:left;
+	left:0px;
+	width:340px;
+	height:100%;
+	border-right:1px solid black;
+}
+#productimage1{
+	position:absolute;
+  	top:0px;
+	left:340px;
+	height:100%;
+	/*border-right:1px solid black;*/
+}
+
+#leftarrow{
+  	position:absolute;
+  	top:130px;
+	left:-16px;
+}
+#rightarrow{
+  	position:absolute;
+  	top:130px;
+	left:573px;
+}
+#newsHeading{
+  	position:absolute;
+  	top:0px;
+  	left:0px;
+}
+
+#imageDescription{
+  	position:absolute;
+  	top:50px;
+  	left:0px;
+	width:370px;
+	height:420px;
+	border:1px solid #FFFFFF;
+	overflow:auto;
+
+}
+.productDescriptionHead{
+  	font-size:18px;
+	font-weight:bold;
+}
+#imageDetail{
+  	position:absolute;
+  	top:41px;
+  	left:370px;
+	width:170px;
+}
+#productNo{
+  	position:absolute;
+  	top:200px;
+  	left:0px;
+	width:170px;
+	font-size:11px;
+
+}
+#productImageList, #productImageDetails{
+	position:absolute;
+	top:-1000px;
+	}
+#cvleft{
+	position:absolute;
+  	top:0px;
+	left:0px;
+	width:340px;
+	height:100%;
+	border-right:1px solid black;
+}
+#contactDetails{
+	position:absolute;
+  	top:15px;
+	left:80px;
+	width:250px;
+}
+
+.cvtext, .missiontext{
+	padding-left:2em;
+}
+
+.boldtext {
+	font-weight:bold;
+	}
+
+td .newsImage{
+	width:330px;
+}
+
+td {
+	vertical-align:top;
+	color:#000000;
+}
